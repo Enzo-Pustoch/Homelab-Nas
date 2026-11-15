@@ -4,7 +4,7 @@ Serveur NAS personnel sous **OpenMediaVault**, avec des services hébergés dans
 
 ## Services
 | Service | Rôle | Port |
-|---|---|---|
+
 | OpenMediaVault | Administration du NAS | 80 |
 | Nextcloud | Cloud personnel (fichiers) | selon la configuration |
 | Jellyfin | Médiathèque vidéo | 8096 |
@@ -13,7 +13,7 @@ Serveur NAS personnel sous **OpenMediaVault**, avec des services hébergés dans
 
 ## Le réseau
 | Machine | Rôle |
-|---|---|---|
+
 | PC Windows 11 | Passerelle Internet (partage de connexion) |
 | NAS (OpenMediaVault) | Serveur des services |
 | HP (Linux Arch, Omarchy) | Client d'administration |

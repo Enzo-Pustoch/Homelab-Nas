@@ -5,18 +5,18 @@ Serveur NAS personnel sous **OpenMediaVault**, avec des services hébergés dans
 ## Services
 | Service | Rôle | Port |
 
-| OpenMediaVault | Administration du NAS | 80 |
-| Nextcloud | Cloud personnel (fichiers) | selon la configuration |
-| Jellyfin | Médiathèque vidéo | 8096 |
-| Immich | Sauvegarde des photos et vidéos | 2283 |
-| Tailscale | Accès distant sécurisé | – |
+- | OpenMediaVault | Administration du NAS | 80 |
+- | Nextcloud | Cloud personnel (fichiers) | selon la configuration |
+- | Jellyfin | Médiathèque vidéo | 8096 |
+- | Immich | Sauvegarde des photos et vidéos | 2283 |
+- | Tailscale | Accès distant sécurisé | – |
 
 ## Le réseau
 | Machine | Rôle |
 
-| PC Windows 11 | Passerelle Internet (partage de connexion) |
-| NAS (OpenMediaVault) | Serveur des services |
-| HP (Linux Arch, Omarchy) | Client d'administration |
+- | PC Windows 11 | Passerelle Internet (partage de connexion) |
+- | NAS (OpenMediaVault) | Serveur des services |
+- | HP (Linux Arch, Omarchy) | Client d'administration |
 
 Deux modes de fonctionnement :
 - **Mode NAS direct :** un câble relie le Linux au NAS, avec des IP fixes dans le réseau, sans passerelle ni DNS. Aucun routeur ni Internet n'est nécessaire.
